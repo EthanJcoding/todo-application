@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { useEffect, useState } from "react";
-import { useParams } from 'react-router-dom'
+
 
 
 const TodoMain = styled.div`
@@ -56,7 +56,6 @@ const Todo = () => {
   const [todo, setTodo] = useState(null);
   const [isPending, setIsPending] = useState(true);
   const [error, setError] = useState(null);
-  const { id } = useParams()
   const [editMode, setEditMode] = useState(false)
 
   useEffect(() => {
