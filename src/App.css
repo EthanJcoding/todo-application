@@ -1,4 +1,11 @@
-.content {
+* {
+  box-sizing: border-box;
+}
+
+.main-wrapper {
+  background-color: lightgray;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
